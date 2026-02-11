@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .main {
+            text-align: center;
+            width: 50%;
+            background-color: gray;
+            margin: auto;
+            padding: 30px;
+            margin-top: 150px;
+            border: 10px solid teal;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px 10px yellow;
+        }
+
+        h1 {
+            display: inline-block;
+            width: 20%;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100px;
+            padding: 10px;
+            border-radius: 20px;
+            border: 5px solid teal;
+        }
+
+        hr {
+            width: 70%;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="main">
+        <div>
+            <h2>JavaScript Stopwatch</h2>
+        </div>
+
+        <hr style="border: 3px solid teal; border-radius: 10px;">
+
+        <div>
+            <h1 id="min">0</h1>
+            <h1 id="sec">0</h1>
+            <h1 id="msec">0</h1>
+        </div>
+
+        <hr style="border: 3px solid teal; border-radius: 10px;">
+
+        <div>
+            <button id="btn" onclick="start()">start</button>
+            <button onclick="stop()">stop</button>
+            <button onclick="reset()">reset</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
