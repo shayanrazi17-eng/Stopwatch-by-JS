@@ -1,30 +1,3 @@
-// setInterval() 
-// setTimeout() 
-
-// clearInterval()
-// clearTimeout()
-
-
-// setInterval(function () {
-//     document.writeln("hello world <br>")
-// }, 1000)
-
-// setTimeout(function () {
-//     console.log("hello world")
-// }, 3000)
-
-
-// var num = 0
-// var interval = setInterval(function () {
-//     num++
-//     if(num == 5){
-//         clearInterval(interval)
-//     }
-//     document.writeln(num + "<br>")
-// }, 1000)
-
-
-
 var jsMsec = 0
 var jsSec = 0
 var jsMin = 0
@@ -70,4 +43,5 @@ function reset() {
     htmlMin.innerHTML = jsMin
     htmlSec.innerHTML = jsSec
     htmlMsec.innerHTML = jsMsec
+
 }
